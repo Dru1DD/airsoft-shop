@@ -1,0 +1,44 @@
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: #363636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar_links {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar_links span {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    transition: color 0.3s linear;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.navbar_links span:hover {
+    color: orange;
+    border-bottom: 0.5px solid orange;
+}
+
+.navbar_contact {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar_contact span {
+    color: orange;
+    margin-left: 10px;
+}

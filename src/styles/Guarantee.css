@@ -1,0 +1,87 @@
+.g-container {
+    width: 70%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.g-title {
+    font-size: 48px;
+}
+
+.g-nav {
+    font-size: 16px;
+}
+.g-nav-link{
+    text-decoration: none;
+    transition: color 0.3s linear;
+    margin: 5px;
+    color: black;
+}
+
+.g-nav-link:hover {
+    color: orange;
+    border-bottom: 0.5px solid orange;
+}
+
+.g-nav span {
+    margin: 5px;
+}
+
+.g-main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.g-content {
+    width: 50%;
+    border-radius: 10px;
+    border: 0.1px solid rgba(0,0,0,0.03);
+    background-color: rgba(0,0,0,0.03);
+    padding: 5px;
+}
+
+.g-content-nav {
+    width: 45%;
+    border-radius: 10px;
+    border: 0.1px solid rgba(0,0,0,0.03);
+    background-color: rgba(0,0,0,0.03);
+    padding-left: 30px;
+    align-self: flex-start;
+}
+.g-content-nav-col {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.g-content-nav-col-title {
+    font-size: 24px;
+}
+
+.g-content-nav-col-item {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.g-content-nav-col-item-active {
+    border-left: 5px solid orange;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.g-content-nav-col-item:hover {
+    background-color: rgba(0, 0, 255, 0.2);
+    cursor: pointer;
+}
