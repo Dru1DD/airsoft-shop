@@ -1,5 +1,6 @@
 {
   "name": "airsoft-shop",
+  "homepage": "http://dru1dd.github.io/airsoft-shop",
   "version": "0.1.0",
   "private": true,
   "proxy": "https://whispering-shelf-11658.herokuapp.com/",
@@ -39,6 +40,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
