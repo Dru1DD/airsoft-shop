@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { useHistory } from 'react-router'
 import { BiHeadphone } from 'react-icons/bi'
-import "../styles/Footer.css"
+import "../styles/components/Footer.css"
 
 export const Footer: FC = () => {
     const history = useHistory()

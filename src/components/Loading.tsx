@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import '../styles/LoadingPage.css'
+import '../styles/pages/LoadingPage.css'
 
 export const Loading: FC = () => {
     return (

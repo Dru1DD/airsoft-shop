@@ -2,7 +2,7 @@ import React, { FC } from 'react'
 import { useHistory } from 'react-router'
 import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
-import '../styles/ContactsPage.css'
+import '../styles/pages/ContactsPage.css'
 
 export const ContactPage: FC = () => {
     const history = useHistory()

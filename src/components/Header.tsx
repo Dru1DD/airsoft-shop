@@ -4,7 +4,7 @@ import { useHistory } from 'react-router'
 import { IBurger, IMenu, IStyledBurger, IStyledMenu} from '../interfaces/IHeader'
 import { BiHeadphone } from 'react-icons/bi'
 import styled from 'styled-components'
-import "../styles/Header.css"
+import "../styles/components/Header.css"
 
 export const Header: FC = () => {
     const [ screenWidth ] = useWindowSize() 

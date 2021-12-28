@@ -1,0 +1,151 @@
+.item-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item-container-main {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid black;
+}
+.item-images {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-images-main {
+    height: 700px;
+    width: 600px;
+    border: 1px solid blue;
+}
+
+.item-images-slider {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid #262626;
+}
+
+.item-image-slide {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid #363636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.item-image-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.item-info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.item-info-top {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-self:flex-start;
+}
+
+.item-info-title {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.item-info-price {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.item-info-price span{
+    flex: 2;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+.item-info-counter {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-info-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.item-info-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.item-info-bottom {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.item-info-btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    color: black;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.item-container-discription {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item-info-discription {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

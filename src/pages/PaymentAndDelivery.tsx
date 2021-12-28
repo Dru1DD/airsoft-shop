@@ -2,7 +2,7 @@ import React, { FC } from 'react'
 import { useHistory } from 'react-router'
 import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
-import '../styles/PaymentAndDelivery.css'
+import '../styles/pages/PaymentAndDelivery.css'
 
 export const PaymentAndDelivery: FC = () => {
     const history = useHistory()
