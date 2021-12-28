@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/airsoft-shop/static/css/main.20f81c08.css",
-    "main.js": "/airsoft-shop/static/js/main.25b9ae5d.js",
+    "main.js": "/airsoft-shop/static/js/main.4021ca67.js",
     "index.html": "/airsoft-shop/index.html",
     "main.20f81c08.css.map": "/airsoft-shop/static/css/main.20f81c08.css.map",
-    "main.25b9ae5d.js.map": "/airsoft-shop/static/js/main.25b9ae5d.js.map"
+    "main.4021ca67.js.map": "/airsoft-shop/static/js/main.4021ca67.js.map"
   },
   "entrypoints": [
     "static/css/main.20f81c08.css",
-    "static/js/main.25b9ae5d.js"
+    "static/js/main.4021ca67.js"
   ]
 }
