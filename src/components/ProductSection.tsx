@@ -10,7 +10,6 @@ export const ProductSection: FC = () => {
 
     const memoizedItems = useMemo(() => {
         return posts.map((item: IPost) => {
-            console.log(item)
             return <ItemCard 
                     _id={item._id}
                     title={item.title}

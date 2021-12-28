@@ -9,6 +9,7 @@ import { ProductSection } from '../components/ProductSection'
 import axios from 'axios'
 import { POST_LOAD } from '../redux/action/actionTypes'
 import { Loading } from '../components/Loading'
+import { IPost } from '../interfaces/IPostLoaderPage'
 
 export const HomePage: FC = () => {
 
@@ -17,11 +18,24 @@ export const HomePage: FC = () => {
 
     useEffect(() => {
         const getDatafromServer = async () => {
-            const result =  await axios.get('https://whispering-shelf-11658.herokuapp.com/posts')
+            let result =  await axios.get('https://whispering-shelf-11658.herokuapp.com/posts')
+            
+            let object = JSON.parse(JSON.stringify(result.data))
+
+            result.data.map((item: IPost, index: number) => {
+                item.images.map((elem: string, idx: number) => {
+                    object[index].images[idx] = 'https://whispering-shelf-11658.herokuapp.com/' + elem
+                })
+            })
+
+            // for(let i of object) {
+            //     i.images.forEach((url: string) => url = `https://whispering-shelf-11658.herokuapp.com/${url}`)
+            // }
+            
             setLoading(!loading)
             await dispatch({
                 type: POST_LOAD,
-                payload: result.data
+                payload: object
             })
         }
         getDatafromServer()
